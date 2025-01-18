@@ -34,7 +34,7 @@ I'm a passionate software developer with a keen interest in open-source projects
 
 ![Steven's GitHub stats](https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=radical)
 
-![Top Languages]()
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=radical)
 
 ## 📫 Connect with Me
 
