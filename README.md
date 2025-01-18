@@ -19,12 +19,15 @@ I'm a passionate software developer with a keen interest in open-source projects
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
+
 ##  🛠️Tools
 
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-
+![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![PortSwigger](https://img.shields.io/badge/-PortSwigger-FF7139?style=flat-square&logo=burp-suite&logoColor=white)
+![Nmap](https://img.shields.io/badge/-Nmap-00457C?style=flat-square&logo=nmap&logoColor=white)
 
 
 ## 📈 GitHub Stats
