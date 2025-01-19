@@ -17,21 +17,28 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Step 2: Generate the Snake Graph
-      - name: Generate Snake Graph
+      # Step 2: Generate the Default Snake Graph
+      - name: Generate Default Snake Graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
+
+      # Step 3: Generate the Dark Snake Graph
+      - name: Generate Dark Snake Graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Step 3: Rename the Dark Mode File
+      # Step 4: Rename the Dark Mode File
       - name: Rename Dark Snake Graph
         run: |
-          mv dist/github-snake-dark.svg?palette=github-dark dist/github-snake-dark.svg
+          mv "dist/github-snake-dark.svg?palette=github-dark" "dist/github-snake-dark.svg"
 
-      # Step 4: Commit the Generated Files
+      # Step 5: Commit the Generated Files
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
