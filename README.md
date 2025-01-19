@@ -38,7 +38,7 @@ I'm a passionate software developer with a keen interest in open-source projects
 
  <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/dist/github-snake.svg?pallete=github-dark">
-  <source media="(prefers-color-scheme: light)" srcset=["https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/dist/github-snake.svg](https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/refs/heads/main/dist/github-snake.svg)">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/refs/heads/main/dist/github-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/output/github-contribution-grid-snake.svg">
 </picture>
 
