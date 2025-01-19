@@ -1,10 +1,36 @@
-            - name: Generate-README.md-snake
-  # You may pin to the exact commit or the version.
-  # uses: InvalidLenni/README.md@a89878f85b1cca8131c215dbfb4ad7bcdb6b9b9f
-  uses: InvalidLenni/README.md@Template
-  with:
-    # <USERNAME>
-    github_user_name: 
-    # <PATH OF THE GENERATED SVG FILE>
-    svg_out_path: 
-          
+name: Generate Snake Contribution Graph
+
+on:
+  push:
+    branches:
+      - main  # Trigger this action on pushes to the main branch
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Run the Snake Graph generator
+      - name: Generate Snake Contribution Graph
+        uses: Platane/snk@v3
+        with:
+          # Specify the GitHub username (defaults to the repo owner)
+          github_user_name: ${{ github.repository_owner }}
+
+          # Define the outputs (files) to generate
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      # Step 3: Upload the generated files as artifacts (optional)
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-graph
+          path: dist/
