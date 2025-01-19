@@ -24,7 +24,12 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Generated Snake Contribution Graph"
+          file_pattern: |
+            dist/github-snake.svg
       # Step 3: Generate the Dark Snake Graph
       - name: Generate Dark Snake Graph
         uses: Platane/snk@v3
@@ -37,7 +42,6 @@ jobs:
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Generated Snake Contribution Graph"
+          commit_message: "Generated Snake Dark Contribution Graph"
           file_pattern: |
-            dist/github-snake.svg
             dist/github-snake-dark.svg
