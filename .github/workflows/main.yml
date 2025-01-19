@@ -24,9 +24,14 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-            dist/github-sbake.svg?palette=github-dark
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # Step 3: Commit the Generated File
+      # Step 3: Rename the Dark Mode File
+      - name: Rename Dark Snake Graph
+        run: |
+          mv dist/github-snake-dark.svg?palette=github-dark dist/github-snake-dark.svg
+
+      # Step 4: Commit the Generated Files
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -34,4 +39,3 @@ jobs:
           file_pattern: |
             dist/github-snake.svg
             dist/github-snake-dark.svg
-          
