@@ -32,9 +32,18 @@ I'm a passionate software developer with a keen interest in open-source projects
 
 ## 📈 GitHub Stats
 
-![Steven's GitHub stats](https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=radical)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=light">
+  <img src="https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=light" alt="Steven's GitHub stats">
+</picture>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=radical)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=light">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=light" alt="Top Languages">
+</picture>
+
 
  <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/refs/heads/main/dist/github-snake-dark.svg">
