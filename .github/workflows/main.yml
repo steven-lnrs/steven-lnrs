@@ -1,10 +1,12 @@
 name: Generate Snake Contribution Graph
 
 on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily
   push:
     branches:
-      - main  # Trigger this action on pushes to the main branch
-  workflow_dispatch:  # Allow manual triggers
+      - main
+  workflow_dispatch:
 
 jobs:
   generate-snake:
@@ -15,22 +17,17 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Step 2: Run the Snake Graph generator
-      - name: Generate Snake Contribution Graph
+      # Step 2: Generate the Snake Graph
+      - name: Generate Snake Graph
         uses: Platane/snk@v3
         with:
-          # Specify the GitHub username (defaults to the repo owner)
           github_user_name: ${{ github.repository_owner }}
-
-          # Define the outputs (files) to generate
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # Step 3: Upload the generated files as artifacts (optional)
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v3
+      # Step 3: Commit the Generated File
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: snake-graph
-          path: dist/
+          commit_message: "Generated Snake Contribution Graph"
+          file_pattern: dist/github-snake.svg
