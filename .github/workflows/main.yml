@@ -24,11 +24,14 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
-            dist/github-sbake.svg?pallete=github-dark
+            dist/github-sbake.svg?palette=github-dark
 
       # Step 3: Commit the Generated File
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Generated Snake Contribution Graph"
-          file_pattern: dist/github-snake.svg
+          file_pattern: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg
+          
