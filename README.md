@@ -36,10 +36,10 @@ I'm a passionate software developer with a keen interest in open-source projects
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=radical)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
-  <img alt="github-snake" src="dist/github-snake.svg" />
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/steven-lnrs/steven-lnrs/output/github-contribution-grid-snake.svg">
 </picture>
 
 ## 📫 Connect with Me
