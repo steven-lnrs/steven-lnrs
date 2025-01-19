@@ -24,6 +24,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
+            dist/github-sbake.svg?pallete=github-dark
 
       # Step 3: Commit the Generated File
       - name: Commit and Push
