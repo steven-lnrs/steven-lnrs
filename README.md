@@ -18,7 +18,7 @@ I'm a passionate software developer with a keen interest in open-source projects
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=dark">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=light">
@@ -47,7 +47,6 @@ I'm a passionate software developer with a keen interest in open-source projects
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=light">
   <img src="https://github-readme-stats.vercel.app/api?username=steven-lnrs&show_icons=true&theme=light" alt="Steven's GitHub stats">
 </picture>
-<br>
 
 
 
