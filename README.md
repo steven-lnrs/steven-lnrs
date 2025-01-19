@@ -36,6 +36,14 @@ I'm a passionate software developer with a keen interest in open-source projects
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=steven-lnrs&layout=compact&theme=radical)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 ## 📫 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/steven-linares/)
+
+
