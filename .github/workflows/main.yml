@@ -31,12 +31,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake-dark.svg?palette=github-dark
-
-      # Step 4: Rename the Dark Mode File
-      - name: Rename Dark Snake Graph
-        run: |
-          mv "dist/github-snake-dark.svg?palette=github-dark" "dist/github-snake-dark.svg"
+            dist/github-snake-dark.svg
 
       # Step 5: Commit the Generated Files
       - name: Commit and Push
