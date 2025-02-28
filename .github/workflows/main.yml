@@ -33,8 +33,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-snake-dark.svg
-          palette: github-dark
+          outputs: dist/github-snake-dark.svg?palette=github-dark
 
       # Step 5: Commit the Generated Files
       - name: Commit and Push
