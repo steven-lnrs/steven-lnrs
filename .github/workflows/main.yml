@@ -17,34 +17,29 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Step 2: Generate the Default Snake Graph
+      # Step 2: Create Dist Directory (if it doesn’t exist)
+      - name: Create Dist Directory
+        run: mkdir -p dist
+
+      # Step 3: Generate the Default Snake Graph
       - name: Generate Default Snake Graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-      - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Generated Snake Contribution Graph"
-          file_pattern: |
-            dist/github-snake.svg
+          outputs: dist/github-snake.svg
 
-      - name: Checkout Code
-        uses: actions/checkout@v3
-      # Step 3: Generate the Dark Snake Graph
+      # Step 4: Generate the Dark Snake Graph
       - name: Generate Dark Snake Graph
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake-dark.svg?palette=github-dark
+          outputs: dist/github-snake-dark.svg
+          palette: github-dark
 
       # Step 5: Commit the Generated Files
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Generated Snake Dark Contribution Graph"
-          file_pattern: |
-            dist/github-snake-dark.svg
+          commit_message: "Updated Snake Contribution Graph"
+          branch: main
+          file_pattern: "dist/github-snake.svg dist/github-snake-dark.svg"
