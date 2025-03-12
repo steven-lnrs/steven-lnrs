@@ -3,12 +3,12 @@
 ## 🌟 About Me
 I'm a passionate software developer with a keen interest in open-source projects, web development, and Cybersecurity. I love experimenting with new programs and continuously improving my skills.
 
-- 🔭 I’m currently working on an arduino curcuit code
+- 🔭 I’m currently working on a python piano app, check it out [here!](https://github.com/steven-lnrs/PyPiano)
 - 🌱 I’m currently learning **C++** and **Raspbian OS/Bash Scripting**
 - 👯 I’m looking to collaborate on open-source projects
 - 💬 Ask me about **Arduinos**, **Python**, and **My Raspberry Pi Projects**
 - 📫 How to reach me: [steven.linares12@hotmail.com](mailto:steven.linares12@hotmail.com)
-- ⚡ Fun fact: I enjoy solving Rubik's cubes and playing chess
+- ⚡ Fun fact: I enjoy playing piano chess!
 
 
 ## 🛠️ Languages
