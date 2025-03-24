@@ -3,7 +3,7 @@
 ## 🌟 About Me
 I'm a passionate software developer with a keen interest in open-source projects, web development, and Cybersecurity. I love experimenting with new programs and continuously improving my skills.
 
-- 🔭 I’m currently working on a python piano app, check it out [here!](https://github.com/steven-lnrs/PyPiano)
+- 🔭 I’m currently working on a game in Unity! The repo has been privated so it won't show as progress in my account.
 - 🌱 I’m currently learning **C++** and **Raspbian OS/Bash Scripting**
 - 👯 I’m looking to collaborate on open-source projects
 - 💬 Ask me about **Arduinos**, **Python**, and **My Raspberry Pi Projects**
