@@ -8,7 +8,7 @@ I'm a passionate software developer with a keen interest in open-source projects
 - 👯 I’m looking to collaborate on open-source projects
 - 💬 Ask me about **Arduinos**, **Python**, and **My Raspberry Pi Projects**
 - 📫 How to reach me: [steven.linares12@hotmail.com](mailto:steven.linares12@hotmail.com)
-- ⚡ Fun fact: I enjoy playing piano chess!
+- ⚡ Fun fact: I enjoy playing piano and chess!
 
 
 ## 🛠️ Languages
